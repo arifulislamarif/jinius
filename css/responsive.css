@@ -313,6 +313,10 @@
     .btn {
         padding: 15px 15px;
     }
+    .header-area .mean-bar {
+	right: 10%;
+	top: -25px;
+}
 
     /* blog  */
     .blog-header .mean-container a.meanmenu-reveal span {
@@ -344,6 +348,10 @@
         .banner-text-inner a:last-child{
             margin:0;
         }
+        .header-area .mean-bar {
+        right: 10%;
+        top: -25px;
+         }
 
         /* blog  */
         .blog-header {
