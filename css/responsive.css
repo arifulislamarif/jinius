@@ -1,0 +1,382 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .header-area {
+        padding: 20px 0 10px 0;
+    }
+
+    .banner-inner-area.banner-area1::before {
+        right: -19%;
+        width: calc(100% + 500px);
+    }
+    .features-active .left-arrow {
+        left: -70px;
+    }
+    .features-active .right-arrow {
+        right: -70px;
+    }
+    .comment-active .right-arrow {
+        right: -100px; 
+    }
+    .comment-active .left-arrow {
+        left: -100px; 
+    }
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .header-area {
+        padding: 20px 0 10px 0;
+    }
+    
+    .banner-inner-area.banner-area1:before {
+        right: -17%;
+    }
+    .features-area .section-tittle{
+        padding-bottom: 70px;
+    }
+    .features-active .left-arrow {
+        opacity: 0;
+        visibility: hidden;
+    }
+    .features-active .right-arrow {
+        opacity: 0;
+        visibility: hidden;
+    }
+    .testimonial-area{
+        margin-bottom: 65px;
+    }
+    .comment-active .left-arrow {
+      left: -120px;
+    }
+    .comment-active .right-arrow {
+      right: -120px;
+    }
+    .counter-area{
+        padding-top: 50;
+        margin-top: 0;
+    }
+    .blog-area{
+        padding-top: 20px;
+    }
+    .download-app-area .section-tittle h1 {
+        font-size: 40px;
+    }
+    .back-to-top a {
+        right: 11%;
+    }
+ 
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .header-area .mean-bar {
+        right: 0%;
+        top: 25px;
+    }
+    .header-area-2 .mean-bar {
+        top: 6px;
+    }
+    .header-area-2.sticky .mean-bar {
+        top: 25px;
+    }
+
+ 
+    .header-area .mean-container a.meanmenu-reveal {
+        border: 3px solid #777b92;
+        color: #777b92;
+        border-radius: 10px;
+    }
+    .header-area .mean-container a.meanmenu-reveal span {
+        background: #777b92 none repeat scroll 0 0;
+        display: block;
+        height: 5px;
+        margin-top: 2px;
+    }
+    .header-area-2 .main-menu-2 .mean-container a.meanmenu-reveal span {
+        background: #fff;
+    }
+    .header-area-2 .mean-container a.meanmenu-reveal {
+        border: 3px solid #ffffff;
+        color: #ffffff;
+    }
+    .header-area-2 .mean-container a.meanmenu-reveal span {
+        background: #ffffff none repeat scroll 0 0;
+    }
+    .header-area .mean-container a.meanmenu-reveal {
+        margin-top: -45px;
+    }
+    .mean-container .mean-nav {
+        margin-top: 30px;
+    }
+
+    .header-area.sticky {
+        padding: 10px 0 30px 0;
+    }
+    .header-area-2.sticky {
+        padding: 10px 0 20px 0;
+    }
+    .banner-inner-area.banner-area1:before {
+        display: none;
+    }
+    .header-area-2.sticky .mean-container a.meanmenu-reveal {
+        margin-top: -25px;
+    }
+
+    .header-area .mean-container a.meanmenu-reveal {
+        margin-top: -13px;
+    }
+    .features-area {
+        margin-top: 70px;
+    }
+    .comment-active .left-arrow {
+        left: -80px;
+    }
+    .comment-active .right-arrow {
+        right: -80px;
+    }
+    .testimonial-area{
+        margin-bottom: 0;
+    }
+    .blog-area{
+        padding-bottom: 60px;
+    }
+    .download-app-area{
+        padding-bottom: 60px;
+    }
+    .footer-area{
+        padding-bottom: 0;
+        padding-top: 40px;
+    }
+    .extra-link li {
+        padding-bottom: 12px;
+    }
+    .footer-address li {
+        padding-bottom: 15px;
+    }
+    .footer-logo{
+        padding-bottom: 20px;
+    }
+    .footer-text{
+        padding-bottom: 20px;
+    }
+    .footer-tittle{
+        margin-bottom: 20px;
+    }
+    .header-area.sticky .mean-container a.meanmenu-reveal span {
+        background: #000;
+    }
+    .header-area.sticky .mean-container a.meanmenu-reveal {
+        border: 1px solid #000;
+        color: #000;
+    }
+    .header-area.sticky .mean-container a.meanmenu-reveal {
+        margin-top: -20px;
+    }
+
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .header-area {
+        padding-top: 25px;
+        padding-bottom: 0;
+    }
+    .header-area.sticky .mean-container a.meanmenu-reveal span {
+        background: #000;
+    }
+    .header-area.sticky .mean-container a.meanmenu-reveal {
+        border: 1px solid #000;
+        color: #000;
+    }
+    .header-area.sticky .mean-container a.meanmenu-reveal {
+        margin-top: -40px;
+    }
+    .header-area .mean-bar {
+        right: 0%;
+        top: -25px;
+    }
+    .header-area .mean-container a.meanmenu-reveal {
+        border: 3px solid #777b92;
+        color: #777b92;
+        border-radius: 10px;
+    }
+    .header-area .mean-container a.meanmenu-reveal span {
+        background: #777b92 none repeat scroll 0 0;
+        display: block;
+        height: 5px;
+        margin-top: 2px;
+    }
+    .header-area-2 .mean-container a.meanmenu-reveal {
+        border: 3px solid #ffffff;
+        color: #ffffff;
+    }
+    .header-area-2 .mean-container a.meanmenu-reveal span {
+        background: #ffffff none repeat scroll 0 0;
+    }
+    .header-area.sticky .mean-container a.meanmenu-reveal {
+        margin-top: -10px;
+    }
+    .mean-container .mean-nav {
+        margin-top: 30px;
+    }
+
+    .header-area.sticky {
+        padding: 20px 0 0 0;
+    }
+    .banner-inner-area.banner-area1:before {
+        display: none;
+    }
+
+    .header-area .mean-container a.meanmenu-reveal {
+        margin-top: -13px;
+    }
+    .banner-inner-area {
+        padding: 150px 0 90px;
+    }
+    .banner-text-inner a {
+        margin: 0 10px;
+    }
+    .features-area {
+        padding-top: 40px;
+    }
+    .features-area .section-tittle {
+        padding-bottom: 60px;
+    }
+    .comment-active .left-arrow {
+        left: -110px;
+    }
+    .comment-active .right-arrow {
+        right: -110px;
+    }
+    .download-app-area .section-tittle h1 {
+        font-size: 30px;
+    }
+    .download-app-area .section-tittle a {
+        margin-top: 40px;
+    }
+    .footer-area{
+        padding-bottom: 0;
+        padding-top: 40px;
+    }
+    .extra-link li {
+        padding-bottom: 12px;
+    }
+    .footer-address li {
+        padding-bottom: 10px;
+    }
+    .footer-logo{
+        padding-bottom: 10px;
+    }
+    .footer-text{
+        padding-bottom: 10px;
+    }
+    .footer-tittle{
+        margin-bottom: 20px;
+    }
+
+    /* Blog  */
+ 
+
+    .search-bar input {
+        height: 50px;
+    }
+    .search-bar input::placeholder{
+        color: #ffffff;
+        font-size: 13px;
+     }
+     .search-bar input {
+        padding-left: 25px;
+    }
+    .single-sidebar-body {
+        padding: 10px;
+    }
+    .single-post-right span {
+        font-size: 14px;
+    }
+}
+ 
+
+@media (min-width: 350px) and (max-width: 400px){
+    .container {width:95%;}
+    .banner-text-inner a {
+        margin: 0 5px 0 0;
+    }
+    .banner-text-inner a:last-child{
+        margin:0;
+    }
+    .btn {
+        padding: 15px 15px;
+    }
+
+    /* blog  */
+    .blog-header .mean-container a.meanmenu-reveal span {
+        background: #ffffff none repeat scroll 0 0;
+    }
+    .blog-header .mean-container a.meanmenu-reveal {
+        border: 2px solid #ffffff;
+        color: #ffffff;
+    }
+    .footer-area {
+        background-repeat: inherit;
+    }
+}
+@media (min-width: 300px) and (max-width: 348px){
+    h1 {
+        font-size: 35px;
+    }
+        .container {width:95%;}
+        .banner-inner-area-2 {
+            padding: 145px 0 60px;
+        }
+        .btn {
+            padding: 10px 10px;
+            font-size: 12px;
+        }
+        .banner-text-inner a {
+            margin: 0 5px 0 0;
+        }
+        .banner-text-inner a:last-child{
+            margin:0;
+        }
+
+        /* blog  */
+        .blog-header {
+            padding-top: 20px;
+        }
+        .blog-header.sticky {
+            padding: 10px 0 0 0;
+        }
+        .blog-header .mean-container a.meanmenu-reveal span {
+            background: #ffffff none repeat scroll 0 0;
+        }
+        .blog-header .mean-container a.meanmenu-reveal {
+            border: 2px solid #ffffff;
+            color: #ffffff;
+        }
+        .page-tittle-area {
+            padding-top: 220px;
+            padding-bottom: 0;
+        }
+        .page-tittle h1 {
+            color: #ffffff;
+            margin-top: 15px;
+        }
+        .theme-pagination li {
+            height: 40px;
+            width: 40px;
+            border: 2px solid #f7f6f9;
+            line-height: 40px;
+            border-radius: 50%;
+        }
+        .footer-area {
+            background-repeat: inherit;
+        }
+
+}
+
